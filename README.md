@@ -9,10 +9,10 @@ The main objective is to prevent a locker that is currently use from being acces
 
 # Key Features
 
-**1. RFID-Based Identification:** Reads RFID card UIDs to identify access requests.
-**2. UID-Based Access Control:** Prevents a different UID from accessing a locker while it is in use.
-**3. Firebase Realtime Database Integration:** Stores UID information, timestamps, and locker status.
-**4. Telegram Notifications:** Sends notifications related to card interactions, locker status changes, and rejected access attempts via chat bot.
+1. RFID-Based Identification: Reads RFID card UIDs to identify access requests.
+2. UID-Based Access Control: Prevents a different UID from accessing a locker while it is in use.
+3. Firebase Realtime Database Integration: Stores UID information, timestamps, and locker status.
+4. Telegram Notifications: Sends notifications related to card interactions, locker status changes, and rejected access attempts via chat bot.
 
 ## Hardware Components
 1. Microcontroller: ESP32
@@ -38,10 +38,10 @@ The wiring diagram illustrates the connections between the ESP32 microcontroller
 The system integrates Telegram to provide notifications related to locker activities, including card interactions, locker status changes, and forced access attempts.
 
 The following screenshots show the notification interface.
-![Telegram Notifications](assets/notification.jpeg)
+![Telegram Notifications](assets/notification.jpeg)<img src="assets/wiring.png" height="300">
 
 ## My Contribution
 Contributed to the development and integration of the ESP32-based smart locker system, with responsibilities including:
-**1. Firebase Integration:** Configures Firebase Realtime Database (RTDB) to store RFID UID information, timestamps, and locker status
-**2. Hardware Integration:** Collaborated with teammate to integrate and configure the servo motor, LED, and buzzer within the locker system
-**3. System Integration:** Contributed connecting the database, hardware components, and existing Telegram notification code developed by teammate functionally as part of the overall system
+1. Firebase Integration: Configures Firebase Realtime Database (RTDB) to store RFID UID information, timestamps, and locker status
+2. Hardware Integration: Collaborated with teammate to integrate and configure the servo motor, LED, and buzzer within the locker system
+3. System Integration: Contributed connecting the database, hardware components, and existing Telegram notification code developed by teammate functionally as part of the overall system
