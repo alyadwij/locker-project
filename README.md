@@ -38,7 +38,9 @@ The wiring diagram illustrates the connections between the ESP32 microcontroller
 The system integrates Telegram to provide notifications related to locker activities, including card interactions, locker status changes, and forced access attempts.
 
 The following screenshots show the notification interface.
-<img src="assets/notification.jpeg" height="300">
+<p align="center">
+  <img src="assets/notification.jpeg" height="500">
+</p>
 
 ## My Contribution
 Contributed to the development and integration of the ESP32-based smart locker system, with responsibilities including:
